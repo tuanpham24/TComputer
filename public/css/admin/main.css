@@ -1,0 +1,111 @@
+
+:root{
+    --bg-primary: rgba(0,0,0,0.9);
+    --green: #346751;
+    --greenHover: #7ac142;
+    --grey: #E8EAE6;
+    --white: #fff;
+}
+
+header{
+    /* background-color: var(--green);  */
+    background-color: var(--bg-primary);
+    color: var(--white);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    /* height: 60px; */
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.text-white{
+    color: #fff;
+}
+
+.brand-logo a{
+    display: inline-block;
+    padding: 15px 0px;
+}
+
+.wrapper .db-sidebar,
+.wrapper .db-content{
+    padding-top: 15px;
+    margin-top: 60px;
+}
+
+.wrapper .db-sidebar{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.wrapper .db-sidebar .item-container{
+    position: fixed;
+}
+.wrapper .db-sidebar .item-dashboard{
+    background-color: var(--bg-primary);
+    padding: 7px;
+    border-radius: 0px 25px 25px 0px;
+}
+.wrapper .db-sidebar .item{
+    margin: 15px 0px;
+    cursor: pointer;
+}
+.db-sidebar .item .drd-menu li:hover a{
+    color: var(--greenHover);
+}
+.wrapper .db-sidebar .item h5{
+    display: inline-block;
+}
+
+.drd .drd-menu{
+    list-style: none;
+    padding-left: 10px;
+}
+.drd .drd-menu a{
+    text-decoration: none;
+    color: #000;
+}
+
+.wrapper .db-content{
+
+}
+
+/* content */
+.cart-status .card-item{
+    background-color: var(--bg-linear);
+    padding: 5px;
+}
+.db-content .footer-content h5{
+    padding: 15px;
+    background-color: var(--bg-primary);
+}
+
+
+/* Product add */
+.product-add form select,
+.product-add form input{
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: var(--bg-primary);
+}
+
+.product-add form .btn-add-product{
+    background-color: var(--bg-primary);
+    margin-top: 15%;
+    margin-left: 2rem;
+}
+/* .product-add form input:forcus{
+    outline: 0 !important;
+    border-color: #8B4C70;
+} */
+
+/* Product list */
+.product-list .item ul li span{
+    color: var(--greenHover);
+}
